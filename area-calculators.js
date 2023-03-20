@@ -5,7 +5,6 @@ function calculateRectangleArea(length, width){
     return rectangleArea;
   }
 }
-
 function calculateTriangleArea(base, height){
   if (base >= 0 && height >= 0){
     let triangleArea = 0;
@@ -13,9 +12,6 @@ function calculateTriangleArea(base, height){
     return triangleArea;
   }
 }
-
-
-
 function calculateCircleArea(radius){
   if (radius >= 0 ){
     let circleArea = 0;
